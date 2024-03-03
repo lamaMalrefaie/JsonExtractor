@@ -4,7 +4,7 @@
 <title>Rules Library Json Extractor</title>
 <style>
  body {
-  background-image: url('back.png');
+  background-image: url('back.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -138,9 +138,11 @@ textarea {
          
           searchJson(prettyJson);
       }
+     
+      // Add the clearContent function here
       function clearContent() {
           document.getElementById('inputBox').value = '';
-          document.getElementById('beutiBox').value = '';
+          document.getElementById('beutiBox').value = ''; //beuti-box
           document.getElementById('outputBox').innerText = '';
       }
      
@@ -198,3 +200,4 @@ textarea {
     </script>
   </body>
       </html>
+     
